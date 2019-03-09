@@ -4,7 +4,11 @@ div[class^="col-"] {
     text-align: center;
   }
 
-
+#bb{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 90px;
+}
 
 
 #image1{

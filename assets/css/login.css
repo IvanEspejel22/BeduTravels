@@ -1,0 +1,134 @@
+div[class^="col-"] {
+    padding: 0;
+    /* border: 1px solid white; */
+    text-align: center;
+  }
+
+
+
+
+#image1{
+    background-color: red;
+    background-image: url("../img/kiotob1.svg"); 
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+h2{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+}
+
+h3{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+#boton{
+    padding: 20px 40px;
+    border-radius: 16px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+#signup{
+    height: 100vh;
+}
+
+#signup1{
+    height: 30vh;
+}
+
+#signup2{
+    height: 30vh;
+}
+#signup3{
+    height: 30vh;
+}
+
+#form{
+    height: 100vh;
+}
+
+#form1{
+    height: 20vh;
+}
+
+#form2{
+    height: 40vh;
+}
+#form21{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#form3{
+    margin-top: 5px;
+    height: 30vh;
+}
+#form4{
+    height: 10vh;
+}
+
+a{
+    color: red;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+#fb{
+    height: 84px;
+    width: 84px;
+    background-image: url("../img/fb.svg");
+    background-repeat: no-repeat;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 54px;
+    /* background-color: red; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19); */
+}
+#tw{
+    height: 84px;
+    width: 84px;
+    background-image: url("../img/tb.svg");
+    background-repeat: no-repeat;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 54px;
+    /* background-color: red; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19); */
+}
+#gg{
+    height: 84px;
+    width: 84px;
+    background-image: url("../img/gb.svg");
+    background-repeat: no-repeat;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 54px;
+    /* background-color: red; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19); */
+}

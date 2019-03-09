@@ -1,0 +1,60 @@
+
+#username:not(:focus){
+    opacity:1;
+  }
+  
+  #username:valid {
+    border:1.5px solid #9fcbe1;
+      background-color: #ecf5f9;
+  }
+  
+  
+  #username:focus:invalid{
+    border:1.5px solid red;
+      background-color:#FFEFF0;
+  
+  }
+  #pswd:not(:focus){
+    opacity:1;
+  }
+  
+  #pswd:valid {
+    border:1.5px solid #9fcbe1;
+      background-color: #ecf5f9;
+  
+  }
+  #pswd:focus:invalid{
+    border:1.5px solid red;
+      background-color:#FFEFF0;
+  
+  }
+  #pswd1:not(:focus){
+    opacity:1;
+  }
+  
+  #pswd1:valid {
+    border:1.5px solid #9fcbe1;
+      background-color: #ecf5f9;
+  
+  }
+  #pswd1:focus:invalid{
+    border:1.5px solid red;
+      background-color:#FFEFF0;
+  
+  }
+  #rmail:not(:focus){
+    opacity:1;
+  }
+  
+  #rmail:valid {
+    border:1.5px solid #9fcbe1;
+      background-color: #ecf5f9;
+  
+  }
+  #rmail:focus:invalid{
+    border:1.5px solid red;
+      background-color:#FFEFF0;
+  
+  }
+
+  

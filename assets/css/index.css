@@ -48,6 +48,8 @@ h1{
 
 
 .navb{
+    position: sticky;
+    top:0;
     align-items:  center;
     background-color: #d8d9dd;
     display: flex;

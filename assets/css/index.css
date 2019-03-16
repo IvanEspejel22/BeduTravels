@@ -7,7 +7,7 @@ body{
 }
 
 h1{
-    margin: 30px;
+    margin-top: 40%;
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -20,8 +20,9 @@ h1{
     flex-wrap: wrap;
     justify-content: center;
     align-items:  center;
+    padding: 0%;
     margin: 0;
-    height: 750px;
+    height: 90vh;
     width: 100%;
     background-color: transparent; 
     background-image: url("../img/Japon.jpg");
@@ -34,30 +35,17 @@ h1{
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-end;
-    /* background-color: red;  */
-    height: 375px;
+    align-items: center;
+    /* background-color: red;   */
+    height: 100vh;
     width: 50%;
     margin-left: 40%;
     margin-right: 40%;
     margin-bottom: 0;
     padding: 0;
     /* margin-top: -750px; */
-   
-    
-    
 }
-#titulo2{
-    display:flex;
-    justify-content: center;
 
-    /* background-color: blue; */
-    height: 500px;
-    width: 500px;
-    margin-bottom: 0;
-    padding: 0;
- 
-    }
 
 .navb{
     align-items:  center;
@@ -135,9 +123,9 @@ h1{
 .container{ 
   height: 50px;
   width: 300px;
-  vertical-align: middle;
   white-space: nowrap;
   position: relative;
+  margin-bottom: 40%;
 }
 
 #topd{
@@ -162,25 +150,23 @@ h1{
     
 }
 #panelv{
+    margin: 0 10px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-content: center;
     flex-wrap: wrap;
-    
-    /* background-color: red; */
     height: 90%;
-    width: 680px;
+    width: 45vw;
 }
 
 #panelv1{
+    margin: 0 10px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-content: center;
     flex-wrap: wrap;
-
-    /* background-color: blue; */
     height: 90%;
-    width: 680px;
+    width: 45vw;
 }
 
 #titulo3{
@@ -203,28 +189,30 @@ h1{
     #cardl1{
         display: flex;
         align-items: flex-end;
-        margin: 20px;
+        flex-wrap: wrap;
+        margin: 20px 0;
         background-image: url("../img/Osaka.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         background-color:greenyellow; 
         height: 400px;
-        width: 90%;
+        width: 100%;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
     #cardl2{
         display: flex;
         align-items: flex-start;
-        margin: 20px;
+        flex-wrap: wrap;
+        margin-top: 10px ;
         background-image: url("../img/kyoto.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         background-color:greenyellow; 
         height: 400px;
-        width: 90%;
+        width: 100%;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
@@ -235,10 +223,10 @@ h1{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        margin: 10px;
+        margin-top: 10px;
         background-color:violet; 
         height: 200px;
-        width: 300px;
+        width: 48%;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     
@@ -249,10 +237,10 @@ h1{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        margin: 10px;
+        margin-top: 10px;
         background-color:violet; 
         height: 200px;
-        width: 300px;
+        width: 48%;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     
@@ -263,10 +251,11 @@ h1{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        margin: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
         background-color:violet; 
         height: 200px;
-        width: 300px;
+        width: 48%;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     
@@ -277,10 +266,11 @@ h1{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        margin: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
         background-color:violet; 
         height: 200px;
-        width: 300px;
+        width: 48%;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     h3{
@@ -298,3 +288,80 @@ h1{
         background-color: white;
         opacity: .8;
     }
+
+    @media only screen and (max-width: 767px) {
+        #nav-bar{
+            display: none;
+        }
+
+        .navb{
+           
+            justify-content: center;
+            
+            }
+
+        #titulo{
+            
+            align-items: center;
+        }
+            
+        #home-cover {
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items:  center;
+            margin: 0;
+            height: 40vh;
+            width: 100vw;
+            background-color: transparent; 
+            background-image: url("../img/Japon.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #titulo{
+             
+            height: 40vh;
+            
+        }
+
+        h1{
+            margin-top: 10%;
+            margin-bottom: 5%;
+            font-size: 60px;
+        }
+
+        #panels{
+            justify-content: center;
+            
+            
+        }
+
+       
+        #panelv, #panelv1{
+            height: 90%;
+            width: 90vw;
+        }
+}
+@media only screen and (max-width: 480px) {
+    
+        
+  
+
+    h1{
+        
+        font-size: 40px;
+    }
+
+    
+    #cardp1, #cardp2, #cardp3, #cardp4{
+       
+        margin: 20px 0;
+        height: 200px;
+        width: 100%; 
+        
+    }
+   
+    
+}

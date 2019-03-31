@@ -1,0 +1,60 @@
+
+    
+    @media only screen and (max-width: 767px) {
+        #nav-bar{
+            display: none;
+        }
+
+        .navb{
+           
+            justify-content: center;
+            
+            }
+
+        #home-cover {
+            @include dimension(40vh,100vw); 
+        }
+
+        #titulo{
+            align-items: center;
+            height: 40vh;
+            
+        }
+
+        h1{ 
+            margin-top: 10%;
+            margin-bottom: 5%;
+            font-size: 60px;
+        }
+
+        #panels{
+            justify-content: center;
+            }
+
+       
+        #panelv, #panelv1{
+            width: 90vw;
+            margin: 20px 0;
+            
+        }
+
+         
+}
+
+
+@media only screen and (max-width: 480px) {
+    
+        
+    h1{
+         font-size: 30px;
+     }
+ 
+     
+     #cardp1, #cardp2, #cardp3, #cardp4{
+         margin: 20px 0;
+         width: 100%; 
+         
+     }
+    
+     
+ }

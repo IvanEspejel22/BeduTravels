@@ -1,0 +1,128 @@
+
+body{
+    @include margen(0,0,0,0);
+    @include margeni(0,0,0,0);
+    font-family: $fuentep;
+}
+
+
+
+
+
+
+
+
+.navb{
+    position: sticky;
+    z-index: 2;
+    top:0;
+    background-color: #d8d9dd;
+    @include flex(wrap,space-between,center);
+    @include dimension(60px,auto); 
+    @include margeni(10px,10px,10px,10px);
+    }
+
+.logo-bedu{
+    margin-left:20px;
+}
+
+.center-align{
+    @include flex(wrap,flex-start,center);
+    @include margeni(20px,20px,20px,20px);
+}
+
+
+
+
+
+#isearch {
+    opacity: .8;
+    border-radius: 5px;
+    @include margeni(0,45px,0,15px);
+    @include fonts($rojo,$fl,$tsize);
+    @include dimension(50px, 350px); 
+    background: #d8d9dd;
+    border: none;
+    
+}
+
+.container{ 
+    @include flex(nowrap,center,center);
+    @include dimension(50px, 350px); 
+    @include margen(0,0,40%,0);
+    position: relative;
+  }
+  
+  #topd{
+    @include flex(wrap,center,center);
+    @include dimension(auto,100%); 
+    background-color: #f2f4f5;
+  }
+  #panels{
+    @include flex(wrap,space-between,center);
+    @include margen(0,0,20px,0);
+    
+  }
+
+  #panelv , #panelv1{
+    @include margen(0,10px,20px,10px);
+    @include flex(wrap,space-around,center);
+    @include dimension(auto, 40vw); 
+    
+  }
+  
+  #cardl1 , #cardl2{
+    @include dimension(400px, 100%); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: $sombra;
+  }
+
+  #cardl1{
+    @include flex(wrap,flex-start,flex-end);
+    @include margen(20px,0,20px,0);
+    background-image: url("#{$limg}Osaka.jpg");
+}
+  #cardl2{
+    @include flex(wrap,flex-start,flex-start);
+    @include margen(10px,0,0,0);
+    background-image: url("#{$limg}kyoto.jpg");
+  }
+
+  #cardp1,#cardp2,#cardp3,#cardp4{
+    @include dimension(200px, 48%); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: $sombra;
+  }
+
+  #cardp1 , #cardp2{
+    @include flex(wrap,flex-start,flex-end);
+    @include margen(10px,0,0,0);
+  }
+
+  #cardp3 , #cardp4{
+    @include flex(wrap,flex-start,flex-start);
+    @include margen(20px,0,20px,0);
+  }
+
+#cardp1{
+    background-image: url("#{$limg}tokio.jpg");
+}
+
+#cardp2{
+    background-image: url("#{$limg}setagaya.jpg");
+}
+
+
+
+#cardp3{
+    background-image: url("#{$limg}hokkaido.png");
+}
+
+#cardp4{
+    background-image: url("#{$limg}chiba.jpg");
+   }
+

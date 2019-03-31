@@ -1,0 +1,27 @@
+@mixin flex($fwrap,$jcontent,$aitems) {
+	display: flex;
+    flex-wrap:$fwrap;
+    justify-content: $jcontent;
+    align-items: $aitems;
+}
+
+
+@mixin fonts($fcolor,$fweight,$fsize) {
+    color: $fcolor;
+    font-weight: $fweight;
+    font-size: $fsize;
+	font-family: $fuentep;
+}
+
+@mixin dimension($height,$width) {
+    height: $height;
+    width:  $width;
+}
+
+@mixin margen($top,$right,$bottom,$left) {
+    margin: $top $right $bottom $left;
+}
+
+@mixin margeni($top1,$right1,$bottom1,$left1) {
+    padding: $top1 $right1 $bottom1 $left1;
+}

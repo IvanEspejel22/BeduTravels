@@ -1,0 +1,39 @@
+h1{
+    @include fonts(white,$fb,$tsizexl);
+    @include margen(40%,0,0,0);
+}
+
+#titulo{
+    @include flex(wrap,center,center);
+    @include dimension(100vh,50%); 
+    
+}
+
+.liga {
+    @include margen(0,0,0,20px);
+    @include fonts($negro,$fr,$tsizesm);
+    text-decoration: none;
+}
+
+.liga:hover{
+    color: $rojo;
+}
+
+#titulo3{
+    @include flex(wrap,center,center);
+    @include dimension(80px, 100%); 
+    }
+
+ h2{
+    @include fonts($negro,$fb,$tsizemd);
+    }
+
+    h3{
+        @include fonts($negro,$fb,$tsizesm);
+    }
+    
+    .card-text{
+        @include flex(nowrap,center,center);
+        @include dimension(30px, 90px); 
+        background-color: rgba(255,255,255, .8);
+    }

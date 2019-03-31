@@ -1,0 +1,350 @@
+#home-cover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 90vh;
+  width: 100%;
+  background-image: url("../img/Japon.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.icon {
+  height: 35px;
+  width: 35px;
+  background-image: url("../img/search.svg");
+  position: absolute;
+  top: 6px;
+  left: 300px;
+  z-index: 1;
+  color: red; }
+
+.icon:hover {
+  background-image: url("../img/searchh.svg"); }
+
+.container input#isearch::-webkit-input-placeholder {
+  color: red; }
+
+h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 80px;
+  font-family: "Roboto", sans-serif;
+  margin: 40% 0 0 0; }
+
+#titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100vh;
+  width: 50%; }
+
+.liga {
+  margin: 0 0 0 20px;
+  color: black;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none; }
+
+.liga:hover {
+  color: red; }
+
+#titulo3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 80px;
+  width: 100%; }
+
+h2 {
+  color: black;
+  font-weight: 700;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif; }
+
+h3 {
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif; }
+
+.card-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 30px;
+  width: 90px;
+  background-color: rgba(255, 255, 255, 0.8); }
+
+body {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  font-family: "Roboto", sans-serif; }
+
+.navb {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  background-color: #d8d9dd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 60px;
+  width: auto;
+  padding: 10px 10px 10px 10px; }
+
+.logo-bedu {
+  margin-left: 20px; }
+
+.center-align {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 20px 20px 20px 20px; }
+
+#isearch {
+  opacity: .8;
+  border-radius: 5px;
+  padding: 0 45px 0 15px;
+  color: red;
+  font-weight: 300;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  height: 50px;
+  width: 350px;
+  background: #d8d9dd;
+  border: none; }
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 50px;
+  width: 350px;
+  margin: 0 0 40% 0;
+  position: relative; }
+
+#topd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  background-color: #f2f4f5; }
+
+#panels {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 0 20px 0; }
+
+#panelv, #panelv1 {
+  margin: 0 10px 20px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: auto;
+  width: 40vw; }
+
+#cardl1, #cardl2 {
+  height: 400px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+#cardl1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  margin: 20px 0 20px 0;
+  background-image: url("../img/Osaka.jpg"); }
+
+#cardl2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  margin: 10px 0 0 0;
+  background-image: url("../img/kyoto.jpg"); }
+
+#cardp1, #cardp2, #cardp3, #cardp4 {
+  height: 200px;
+  width: 48%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+#cardp1, #cardp2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  margin: 10px 0 0 0; }
+
+#cardp3, #cardp4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  margin: 20px 0 20px 0; }
+
+#cardp1 {
+  background-image: url("../img/tokio.jpg"); }
+
+#cardp2 {
+  background-image: url("../img/setagaya.jpg"); }
+
+#cardp3 {
+  background-image: url("../img/hokkaido.png"); }
+
+#cardp4 {
+  background-image: url("../img/chiba.jpg"); }
+
+@media only screen and (max-width: 767px) {
+  #nav-bar {
+    display: none; }
+  .navb {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  #home-cover {
+    height: 40vh;
+    width: 100vw; }
+  #titulo {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 40vh; }
+  h1 {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: 60px; }
+  #panels {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  #panelv, #panelv1 {
+    width: 90vw;
+    margin: 20px 0; } }
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 30px; }
+  #cardp1, #cardp2, #cardp3, #cardp4 {
+    margin: 20px 0;
+    width: 100%; } }

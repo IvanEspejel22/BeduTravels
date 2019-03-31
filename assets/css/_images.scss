@@ -1,0 +1,28 @@
+#home-cover{
+    @include flex(wrap,center,center);
+    @include dimension(90vh,100%); 
+    background-image: url("#{$limg}Japon.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.icon  {
+    @include dimension(35px,35px);
+    background-image: url("#{$limg}search.svg");
+    position: absolute;
+    top: 6px;
+    left: 300px;
+    z-index: 1;
+    color: $rojo;
+  }
+
+ 
+ .icon:hover{ 
+    background-image: url("#{$limg}searchh.svg")
+  }
+
+.container input#isearch::-webkit-input-placeholder {
+    color: $rojo;
+ }
